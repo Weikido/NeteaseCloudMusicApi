@@ -25,9 +25,9 @@ base_url = 'http://localhost:3000/'
 # 具体获得cookie方法见README.MD
 cookies = {
      '__remember_me': 'true',
-    'NMTID': '00OccQZINTn3z5vn0gcihEZCqr_TzoAAAGAZhwNCA',
-    'MUSIC_U': '154c4268bee57a34afa84b741fb17aa60f50b79ae78fdcd71f021f958c43528e993166e004087dd3cbf09c25dba672dda842e7a8e3dc18aafd57581773fb0e339bb192f7a7cc78eea89fe7c55eac81f3',
-    '__csrf': '2ccaa0c4950c9fb3048234f1018c97fa',
+    'NMTID': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    'MUSIC_U': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    '__csrf': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
 }
 
 ncm_fuc = NeteaseCloudMusicFuc(base_url)
