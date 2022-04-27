@@ -1,6 +1,6 @@
 # cookie 处理
 
-因为是跨域请求，根据Api使用手册，所以需要手动传入 cookie ，其他处理方法移步 https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=%e8%b0%83%e7%94%a8%e5%89%8d%e9%a1%bb%e7%9f%a5
+因为是跨域请求，根据Api使用手册，所以需要手动传入 cookie ，其他处理方法移步 https://binaryify.github.io/NeteaseCloudMusicApi/#/id=%e8%b0%83%e7%94%a8%e5%89%8d%e9%a1%bb%e7%9f%a5
 
 ![获取cookie步骤](get_cookie.png)
 
