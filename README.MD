@@ -1,3 +1,27 @@
+# cookie 处理
+
+因为是跨域请求，根据Api使用手册，所以需要手动传入 cookie ，其他处理方法移步 https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=%e8%b0%83%e7%94%a8%e5%89%8d%e9%a1%bb%e7%9f%a5
+
+![获取cookie步骤](get_cookie.png)
+
+如上图，在登录成功界面，右键进入Network，点击Copy as cURL(bash)复制获取cookie,然后去 https://curlconverter.com/#python
+
+粘贴后，获取cookie，替换如下部分。
+
+```python
+# 因为是跨域请求,直接手动传入 cookie,否则会因为没带上 cookie 导致 301, 具体例子可看 public/test.html, 访问http://localhost:3000/test.html(默认端口的话) 例子使用 jQuery 和 axios
+# 具体获得cookie方法见README.MD
+cookies = {
+     '__remember_me': 'true',
+    'NMTID': '00OccQZINTn3z5vn0gcihEZCqr_TzoAAAGAZhwNCA',
+    'MUSIC_U': '154c4268bee57a34afa84b741fb17aa60f50b79ae78fdcd71f021f958c43528e993166e004087dd3cbf09c25dba672dda842e7a8e3dc18aafd57581773fb0e339bb192f7a7cc78eea89fe7c55eac81f3',
+    '__csrf': '2ccaa0c4950c9fb3048234f1018c97fa',
+}
+```
+
+
+
+
 # 网易云音乐 API
 
 网易云音乐 Node.js API service
